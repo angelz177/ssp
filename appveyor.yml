@@ -1,11 +1,6 @@
 version: 1.0.{build}
 image: ubuntu
 
-install:
-- npm install
-
-build: off
-
 environment:
   foo:
     secure: q8LL8ZEEDzNBurVVmQ8T8w==
