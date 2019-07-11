@@ -1,1 +1,4 @@
 version: 1.0.{build}
+environment:
+  foo:
+    secure: q8LL8ZEEDzNBurVVmQ8T8w==
