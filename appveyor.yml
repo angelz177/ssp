@@ -1,4 +1,14 @@
 version: 1.0.{build}
+image: ubuntu
+
+install:
+- npm install
+
+test_script:
+- npm test
+
+build: off
+
 environment:
   foo:
     secure: q8LL8ZEEDzNBurVVmQ8T8w==
