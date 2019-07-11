@@ -4,9 +4,6 @@ image: ubuntu
 install:
 - npm install
 
-test_script:
-- npm test
-
 build: off
 
 environment:
